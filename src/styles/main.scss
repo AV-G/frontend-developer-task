@@ -1,0 +1,26 @@
+img {
+    display: block;
+    max-inline-size: 100%;
+}
+
+body {
+    background-color: vars.$bg-dark;
+    font-family: 'Roboto';
+}
+
+hr {
+    border: 1px solid vars.$accent;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    color: inherit;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: inherit;
+    padding: 0;
+    text-decoration: none;
+}
